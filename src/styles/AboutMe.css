@@ -1,0 +1,88 @@
+.about-me-container {
+  padding: 40px 20px;
+  background-color: #02c4d9;
+  text-align: center;
+}
+
+.about-me-heading {
+  font-size: 2.5rem;
+  color: #78057c;
+  margin-bottom: 30px;
+}
+
+.about-me-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-me-image {
+  flex: 1;
+  max-width: 250px;
+  border-color: rgb(195, 0, 255);
+  overflow: hidden; /* To ensure the image stays within the container during zoom */
+  border-radius: 10px; /* Ensures the zoom effect retains the rounded corners */
+}
+
+.profile-picture {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+/* Hover effect */
+.profile-picture:hover {
+  transform: scale(1.2); /* Zoom in the image */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhance shadow for a unique style */
+}
+
+.about-me-description {
+  flex: 2;
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-me-description p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-me-highlights {
+  margin-top: 20px;
+}
+
+.about-me-highlights h3 {
+  font-size: 1.5rem;
+  color: #8e24aa;
+  margin-bottom: 10px;
+}
+
+.about-me-highlights ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-me-highlights li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-highlights li::before {
+  content: "👉";
+  margin-right: 8px;
+  color: #6a1b9a;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}

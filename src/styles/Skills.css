@@ -1,0 +1,96 @@
+.skills-container {
+  padding: 20px;
+  background-color: #c5ee73;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #6a1b9a;
+  margin-bottom: 30px;
+}
+
+.skills-section {
+  margin-bottom: 40px;
+}
+
+.skills-subheading {
+  font-size: 1.8rem;
+  color: #8e24aa;
+  margin-bottom: 20px;
+  text-align: left;
+  border-bottom: 3px solid #6a1b9a;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.skill-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #e1d6e8;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for highlighting */
+.skill-card:hover {
+  background-color: #69119f; /* Highlight color */
+  transform: scale(1.05); /* Slight zoom-in effect */
+  color: #ffffff; /* Change text color on hover */
+  border-color: #8e24aa;
+}
+
+.skill-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+.skill-card:hover .skill-name {
+  color: #ffffff; /* Change text color for the skill name */
+}
+
+.skill-description {
+  font-size: 0.9rem;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.skill-card:hover .skill-description {
+  color: #f3e5f5; /* Lighter color for the description on hover */
+}
+
+.skill-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  position: relative;
+}
+
+.skill-level {
+  background: linear-gradient(to right, #6a1b9a, #8e24aa);
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.skill-percentage {
+  font-size: 0.8rem;
+  color: #333333;
+  margin-top: 10px;
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}

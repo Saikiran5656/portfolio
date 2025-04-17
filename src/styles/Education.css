@@ -1,0 +1,61 @@
+/* Education Section Styles */
+.education-container {
+    padding: 40px 20px;
+    background-color: #8fddf7;
+  }
+  
+  .education-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #6605a6;
+    margin-bottom: 30px;
+  }
+  
+  .education-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .education-card {
+    background-color: #f9f5f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: left;
+    border: 2px solid #6a1b9a;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .education-degree {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+  }
+  
+  .education-field {
+    font-size: 1.2rem;
+    color: #8e24aa;
+    margin-bottom: 10px;
+  }
+  
+  .education-institution,
+  .education-year,
+  .education-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .education-description {
+    line-height: 1.6;
+  }
+  
