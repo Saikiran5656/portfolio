@@ -7,7 +7,7 @@ import Contact from './compenents/Contact';
 import Footer from './compenents/Footer';
 import Education from './compenents/Education';
 import Welcome from './compenents/Welcome';
-
+import Certificates from './compenents/Certificates';
 
 function App() {
   return (
@@ -17,8 +17,10 @@ function App() {
       <AboutMe/>
       <Education/>
       <Skills/>
+      <Certificates/>
       <Projects/>
       <Contact/>
+
       <Footer/>
     </div>
   );

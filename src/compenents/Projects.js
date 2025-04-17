@@ -4,7 +4,7 @@ import '../styles/Projects.css';
 const Projects = () => {
   const projectDetails = [
     {
-      title: 'Web Development Project',
+      title: 'E-Commerce Website',
       description:
         'A comprehensive full-stack web application integrating dynamic user interfaces and robust backend functionality to deliver a seamless user experience.',
       features: [
@@ -17,6 +17,20 @@ const Projects = () => {
         'Optimized data exchange and synchronization ensuring consistent user experience.',
       ],
       technologies: ['React.js', 'HTML5', 'CSS3', 'Spring Boot', 'MySQL'],
+    },
+    {
+      title: 'CRM Application for Laptop Rentals',
+      description:
+        'A Salesforce-based CRM solution for managing laptop rental services, offering an efficient way to handle customer interactions and service workflows.',
+      features: [
+        'Implemented custom objects and fields to represent rental data including laptops, customers, and transactions.',
+        'Developed a comprehensive dashboard for tracking rental status and customer interactions.',
+        'Integrated workflows for sending automated email notifications for overdue returns.',
+        'Built custom Lightning components for an enhanced user interface.',
+        'Used Apex triggers to enforce business logic and data validation.',
+        'Generated detailed reports and dashboards for performance monitoring.',
+      ],
+      technologies: ['Salesforce', 'Apex', 'Lightning Web Components', 'SOQL', 'Workflow Rules'],
     },
   ];
 
